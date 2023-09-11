@@ -1,0 +1,110 @@
+* {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(194, 255, 194);
+
+  /* overflow-y: hidden; */
+  /* scrollbar-width: none; */
+}
+.rightpois {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  /* position: relative; */
+  background-color: rgb(234, 181, 255);
+  height: 300px;
+  width: 450px;
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, 50%); */
+  border: 2px solid grey;
+  border-radius: 20px;
+  /* overflow-y: hidden; */
+}
+.feild {
+  text-align: center;
+  padding: 10px;
+}
+#longurl {
+  /* position: relative; */
+  /* top: 40%; */
+  /* left: 10%; */
+  height: 40px;
+  width: 296px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding-right: 20px;
+  font-weight: 300;
+  padding-left: 10px;
+}
+#shorten {
+  /* position: relative; */
+  /* top: 40%; */
+  /* left: 12%; */
+  height: 40px;
+  width: 80px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: large;
+  font-family: monospace;
+  font-weight: bold;
+  color: white;
+  background-color: grey;
+  cursor: pointer;
+}
+#shorten:hover {
+  background-color: burlywood;
+}
+#shortUrl {
+  /* position: relative; */
+  /* top: 45%; */
+  /* left: 10%; */
+  height: 40px;
+  width: 270px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 47px;
+  font-size: large;
+  font-family: monospace;
+  font-weight: bold;
+}
+#copy {
+  /* position: relative; */
+  /* top: 46%; */
+  /* left: 0%; */
+  height: 30px;
+  width: 35px;
+  /* right: 37%; */
+  border: 2px solid black;
+  border-radius: 10px;
+  color: aliceblue;
+  background-color: grey;
+  cursor: pointer;
+}
+#copy:hover {
+  background-color: burlywood;
+}
+.container p {
+  /* position: relative; */
+  /* top: 30%; */
+  /* left: 13%; */
+  line-height: 100px;
+  margin-bottom: 30px;
+  text-align: center;
+  height: 60px;
+  width: 400px;
+  font-size: 50px;
+  text-align: center;
+  font-family: monospace;
+  font-weight: 500;
+  color: rgb(160, 0, 0);
+}
